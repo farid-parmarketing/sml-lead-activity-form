@@ -37,6 +37,7 @@ const Home = () => {
         setLoading(true);
         //
         const token = await getToken();
+        console.log(token);
         //
         const res = await fetch(`${url}/getdetails`, {
           method: "POST",
