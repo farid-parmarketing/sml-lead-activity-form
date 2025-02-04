@@ -11,7 +11,7 @@ app.use(
       "http://localhost:3000",
       "http://localhost:3001",
       "https://lead-activity.settlemyloan.in",
-      "https://api.singledebt.in",
+      // "https://api.singledebt.in",
     ],
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,

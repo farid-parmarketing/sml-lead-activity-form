@@ -2,7 +2,7 @@ import React, { createContext } from "react";
 const AppContext = createContext();
 
 const AppContextProvider = ({ children }) => {
-  const url = "https://api.settlemyloan.in";
+  const url = "http://localhost:8005";
   //
   const getToken = async () => {
     try {
