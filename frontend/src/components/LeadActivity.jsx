@@ -46,7 +46,7 @@ const LeadActivity = () => {
       ) : (
         <>
           <div className="row align-items-center justify-content-center m-0">
-            <div className="col-md-6">
+            <div className="col-md-6 p-0">
               <div className="mb-2">
                 <input
                   type="text"
